@@ -1,0 +1,23 @@
+{
+	"name": "root",
+	"type": "module",
+	"scripts": {
+		"build": "pnpm -r --filter=./apps/* build",
+		"lint": "pnpm -r --filter=./apps/* lint",
+		"format": "pnpm -r --filter=./apps/* format"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/eslint": "^9.6.0",
+		"@types/node": "^22.5.5",
+		"eslint": "^9.0.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.36.0",
+		"globals": "^15.0.0",
+		"prettier": "3.3.3",
+		"prettier-plugin-svelte": "^3.1.2",
+		"typescript": "^5.0.0"
+	},
+	"packageManager": "pnpm@9.9.0"
+}
