@@ -29,6 +29,7 @@ export const actions = {
 
 			return { success: true, result };
 		} catch (error) {
+			console.error(error);
 			return { success: false };
 		}
 	}
