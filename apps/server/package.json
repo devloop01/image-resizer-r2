@@ -3,7 +3,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "tsx watch src/index.ts",
-		"build": "tsc"
+		"build": "tsc",
+		"start": "node dist/index.js"
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.654.0",
