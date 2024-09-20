@@ -4,7 +4,7 @@ import { logger } from 'hono/logger';
 
 import 'dotenv/config';
 
-import { resizeRoute } from './routes/resize/resize.route';
+import { resizeRoute } from './routes/resize/resize.route.js';
 
 const app = new Hono();
 

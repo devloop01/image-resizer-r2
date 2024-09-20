@@ -2,8 +2,8 @@ import { zValidator } from '@hono/zod-validator';
 import { Hono } from 'hono';
 import sharp from 'sharp';
 
-import { resizeImageSchema } from './resize.schema';
-import { createImage, getImageUrl } from './resize.service';
+import { resizeImageSchema } from './resize.schema.js';
+import { createImage, getImageUrl } from './resize.service.js';
 
 export const resizeRoute = new Hono();
 
