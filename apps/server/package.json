@@ -4,10 +4,19 @@
 		"dev": "tsx watch src/index.ts"
 	},
 	"dependencies": {
+		"@aws-sdk/client-s3": "^3.654.0",
+		"@aws-sdk/s3-request-presigner": "^3.654.0",
 		"@hono/node-server": "^1.13.0",
-		"hono": "^4.6.2"
+		"@hono/zod-validator": "^0.2.2",
+		"dotenv": "^16.4.5",
+		"hono": "^4.6.2",
+		"picocolors": "^1.1.0",
+		"sharp": "^0.33.5",
+		"uuid": "^10.0.0",
+		"zod": "^3.23.8"
 	},
 	"devDependencies": {
+		"@types/uuid": "^10.0.0",
 		"tsx": "^4.7.1"
 	}
 }
