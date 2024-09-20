@@ -16,8 +16,7 @@
 		"eslint-plugin-svelte": "^2.36.0",
 		"globals": "^15.0.0",
 		"prettier": "3.3.3",
-		"prettier-plugin-svelte": "^3.1.2",
-		"typescript": "^5.0.0"
+		"prettier-plugin-svelte": "^3.1.2"
 	},
 	"packageManager": "pnpm@9.9.0"
 }

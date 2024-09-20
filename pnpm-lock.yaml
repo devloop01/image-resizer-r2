@@ -32,9 +32,6 @@ importers:
       prettier-plugin-svelte:
         specifier: ^3.1.2
         version: 3.2.6(prettier@3.3.3)(svelte@5.0.0-next.257)
-      typescript:
-        specifier: ^5.0.0
-        version: 5.6.2
 
   apps/server:
     dependencies:
@@ -75,6 +72,9 @@ importers:
       tsx:
         specifier: ^4.7.1
         version: 4.19.1
+      typescript:
+        specifier: ^5.0.0
+        version: 5.6.2
 
   apps/www:
     devDependencies:
@@ -94,7 +94,7 @@ importers:
         specifier: ^4.0.0
         version: 4.0.2(svelte@5.0.0-next.257)(typescript@5.6.2)
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.6.2
         version: 5.6.2
       vite:
         specifier: ^5.0.3
