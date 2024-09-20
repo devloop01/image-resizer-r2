@@ -1,3 +1,5 @@
+import { API_URL } from '$env/static/private';
+
 /** @type {import('./$types').PageServerLoad} */
 export const load = async () => {
 	return {};
@@ -14,7 +16,7 @@ export const actions = {
 		const { compression } = data;
 
 		try {
-			const response = await fetch(`http://localhost:3000/api/resize/${compression}`, {
+			const response = await fetch(`${API_URL}/api/resize/${compression}`, {
 				method: 'POST',
 				body: formData
 			});
